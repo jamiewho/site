@@ -33,3 +33,9 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.own {
+  font-size: 15px;
+  position: absolute;
+  top: 99%;
+}
