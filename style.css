@@ -18,6 +18,7 @@ p {
   transform: translate(-50%, -50%);
   z-index: 2;
   font-size: 40px;
+  font-family: 'Noto Sans TC', sans-serif;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
     -webkit-background-clip: text;
     animation: shine 2s linear infinite;
@@ -50,6 +51,7 @@ img {
 
 .own {
   font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
   position: absolute;
   top: 99%;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
@@ -64,6 +66,7 @@ img {
 
 .header {
   font-size: 50px;
+  font-family: 'Noto Sans TC', sans-serif;
   position: absolute;
   top: 5%;
   font-family: monospace;
