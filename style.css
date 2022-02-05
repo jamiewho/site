@@ -99,7 +99,7 @@ svg:hover {
 
 .transsense2 {
   width: 100%;
-  height: 1px;
+  height: 5px;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
   background-size: 200%;
   animation: shine 2s linear infinite;
