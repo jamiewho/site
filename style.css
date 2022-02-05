@@ -96,3 +96,22 @@ svg:hover {
   height: 25%;
   fill: #5865F2;
 }
+
+.transsense {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+  background-size: 200%;
+  animation: shine 2s linear infinite;
+
+}
+
+.title {
+  font-size: 60px;
+  top: 10%;
+  background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+    -webkit-background-clip: text;
+    animation: shine 2s linear infinite;
+    background-size: 50% auto;
+    color: transparent;
+}
