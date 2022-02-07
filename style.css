@@ -124,6 +124,4 @@ sex1 {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-  animation: shine 2s linear infinite;
 }
