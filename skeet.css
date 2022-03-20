@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: black;
+  background-color: #131516;
 }
 
 @keyframes shine {
@@ -28,9 +28,9 @@ p, a {
 
 .transsense {
   width: 100%;
-  height: 1px;
+  height: 5px;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-  background-size: 200%;
+  background-size: 150%;
   animation: shine 2s linear infinite;
 
 }
@@ -74,7 +74,7 @@ p, a {
   border-radius: 35px;
   transition: 0.3s;
   opacity: 0.5;
-  top: 50%;
+  top: 30%;
   width: 15%;
   text-align: center;
 }
@@ -94,7 +94,7 @@ p, a {
   border-radius: 35px;
   transition: 0.3s;
   opacity: 0.5;
-  top: 70%;
+  top: 50%;
   width: 15%;
   text-align: center;
 }
@@ -115,7 +115,7 @@ p, a {
   border-radius: 35px;
   transition: 0.3s;
   opacity: 0.5;
-  top: 90%;
+  top: 70%;
   width: 15%;
   text-align: center;
 }
@@ -188,4 +188,41 @@ p, a {
   box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
   color: rgb(236, 121, 235);
   opacity: 1;
+}
+
+.mylink {
+  color: gray;
+  border: 3px solid rgb(158, 158, 156, 0.5);
+  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
+  background-color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+  padding: 20px;
+  border-radius: 35px;
+  transition: 0.3s;
+  opacity: 0.5;
+  top: 40%;
+  width: 15%;
+  text-align: center;
+}
+
+.mylink:hover {
+  border: 3px solid rgba(242, 0, 255, 0.6);
+  background-color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
+  color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+  opacity: 1;
+}
+
+.own {
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: absolute;
+  top: 97%;
+  background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+    -webkit-background-clip: text;
+    animation: shine 2s linear infinite;
+    background-size: 50% auto;
+    color: transparent;
+    text-shadow: 0.3vw 0.3vw rgba(0,0,0,0.1);
+
+
 }
