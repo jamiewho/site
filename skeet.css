@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
 
 
-body {
-  background-color: #131516;
+body{
+    background-image: url('background2.gif');
+    background-size: cover;
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 
 @keyframes shine {
@@ -26,9 +32,11 @@ p, a {
 
 }
 
+
+
 .transsense {
   width: 100%;
-  height: 5px;
+  height: 4px;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
   background-size: 150%;
   animation: shine 2s linear infinite;
@@ -37,7 +45,7 @@ p, a {
 
 .title {
   font-size: 60px;
-  top: 10%;
+  top: 40%;
   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
     -webkit-background-clip: text;
     animation: shine 2s linear infinite;
