@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url('background2.gif');
+    background-image: url('owo.gif');
     background-size: cover;
 
 
@@ -53,172 +53,156 @@ p, a {
     color: transparent;
 }
 
-.link {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 30%;
-  width: 15%;
-  text-align: center;
-}
-.link:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
-}
-.link2 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 30%;
-  width: 15%;
-  text-align: center;
-}
-.link2:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
-}
-.link3 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 50%;
-  width: 15%;
-  text-align: center;
-}
-.link3:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
+.minilink {
+   width: 80px;
+   height: 80px;
+   border-radius: 50px;
+   top: 55%;
+   color: gray;
+   border: 3px solid rgb(0, 0, 0, 0.66);
+   margin-left: 0%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+     -webkit-background-clip: text;
+     animation: shine 2s linear infinite;
+     background-size: 50% auto;
+     color: transparent;
+
+
 }
 
-.link4 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 70%;
-  width: 15%;
-  text-align: center;
-}
-.link4:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
+.minilink:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 3px solid rgb(0, 0, 0, 1);
+   margin-left: 0%;
+   font-size: 15px;
+
 }
 
-.link5 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 110%;
-  width: 15%;
-  text-align: center;
-}
-.link5:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
+.minilink3 {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   color: gray;
+   border: 3px solid rgb(0, 0, 0, 0.66);
+   margin-left: -6%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+     -webkit-background-clip: text;
+     animation: shine 2s linear infinite;
+     background-size: 50% auto;
+     color: transparent;
+
 }
 
-.link6 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 130%;
-  width: 15%;
-  text-align: center;
-}
-.link6:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
+.minilink3:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 3px solid rgb(0, 0, 0, 1);
+   margin-left: -6%;
+   font-size: 15px;
 }
 
-.link7 {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: rgba(193, 193, 193, 0.2);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 150%;
-  width: 15%;
-  text-align: center;
-}
-.link7:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: rgba(109, 4, 111, 0.4);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: rgb(236, 121, 235);
-  opacity: 1;
+.minilink2 {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   color: gray;
+   border: 3px solid rgb(0, 0, 0, 0.66);
+   margin-left: 6%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+     -webkit-background-clip: text;
+     animation: shine 2s linear infinite;
+     background-size: 50% auto;
+     color: transparent;
+
 }
 
-.mylink {
-  color: gray;
-  border: 3px solid rgb(158, 158, 156, 0.5);
-  box-shadow: .2vw .2vw .2vw rgb(158, 158, 156, 0.2) inset;
-  background-color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-  padding: 20px;
-  border-radius: 35px;
-  transition: 0.3s;
-  opacity: 0.5;
-  top: 40%;
-  width: 15%;
-  text-align: center;
+.minilink2:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 3px solid rgb(0, 0, 0, 1);
+   margin-left: 6%;
+   font-size: 15px;
 }
 
-.mylink:hover {
-  border: 3px solid rgba(242, 0, 255, 0.6);
-  background-color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-  box-shadow: .4vw .4vw .4vw rgba(201, 3, 205, 0.3) inset;
-  color: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-  opacity: 1;
+.minilink4 {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   color: gray;
+   border: 3px solid rgb(0, 0, 0, 0.66);
+   margin-left: 12%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+     -webkit-background-clip: text;
+     animation: shine 2s linear infinite;
+     background-size: 50% auto;
+     color: transparent;
+
 }
+
+.minilink4:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 3px solid rgb(0, 0, 0, 1);
+   margin-left: 12%;
+   font-size: 15px;
+}
+
+.minilink5 {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   color: gray;
+   border: 3px solid rgb(0, 0, 0, 0.66);
+   margin-left: -12%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
+     -webkit-background-clip: text;
+     animation: shine 2s linear infinite;
+     background-size: 50% auto;
+     color: transparent;
+
+}
+
+.minilink5:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 3px solid rgb(0, 0, 0, 1);
+   margin-left: -12%;
+   font-size: 15px;
+}
+
+
+
+
 
 .own {
   font-size: 15px;
