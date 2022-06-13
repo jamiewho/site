@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url('owo.gif');
+    background-color: #1e1e1f;
     background-size: cover;
 
 
@@ -58,17 +58,13 @@ p, a {
    height: 80px;
    border-radius: 50px;
    top: 55%;
-   color: gray;
-   border: 3px solid rgb(0, 0, 0, 0.66);
+   color: #472191;
+   border: 0px solid rgb(0, 0, 0, 0.66);
    margin-left: 0%;
    font-size: 19px;
    text-align: center;
    line-height: 70px;
-   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-     -webkit-background-clip: text;
-     animation: shine 2s linear infinite;
-     background-size: 50% auto;
-     color: transparent;
+
 
 
 }
@@ -78,7 +74,7 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   border: 3px solid rgb(0, 0, 0, 1);
+   border: 0px solid rgb(0, 0, 0, 1);
    margin-left: 0%;
    font-size: 15px;
 
@@ -89,17 +85,13 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   color: gray;
-   border: 3px solid rgb(0, 0, 0, 0.66);
+   color: #472191;
+   border: 0px solid rgb(0, 0, 0, 0.66);
    margin-left: -6%;
    font-size: 19px;
    text-align: center;
    line-height: 70px;
-   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-     -webkit-background-clip: text;
-     animation: shine 2s linear infinite;
-     background-size: 50% auto;
-     color: transparent;
+
 
 }
 
@@ -108,7 +100,7 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   border: 3px solid rgb(0, 0, 0, 1);
+   border: 0px solid rgb(0, 0, 0, 1);
    margin-left: -6%;
    font-size: 15px;
 }
@@ -118,17 +110,13 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   color: gray;
-   border: 3px solid rgb(0, 0, 0, 0.66);
+   color: #472191;
+   border: 0px solid rgb(0, 0, 0, 0.66);
    margin-left: 6%;
    font-size: 19px;
    text-align: center;
    line-height: 70px;
-   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-     -webkit-background-clip: text;
-     animation: shine 2s linear infinite;
-     background-size: 50% auto;
-     color: transparent;
+
 
 }
 
@@ -137,7 +125,7 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   border: 3px solid rgb(0, 0, 0, 1);
+   border: 0px solid rgb(0, 0, 0, 1);
    margin-left: 6%;
    font-size: 15px;
 }
@@ -147,17 +135,13 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   color: gray;
-   border: 3px solid rgb(0, 0, 0, 0.66);
+   color: #472191;
+   border: 0px solid rgb(0, 0, 0, 0.66);
    margin-left: 12%;
    font-size: 19px;
    text-align: center;
    line-height: 70px;
-   background: linear-gradient(to right, #66faff, #ff66f7, #66faff);
-     -webkit-background-clip: text;
-     animation: shine 2s linear infinite;
-     background-size: 50% auto;
-     color: transparent;
+
 
 }
 
@@ -166,7 +150,7 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   border: 3px solid rgb(0, 0, 0, 1);
+   border: 0px solid rgb(0, 0, 0, 1);
    margin-left: 12%;
    font-size: 15px;
 }
@@ -176,9 +160,34 @@ p, a {
    height: 80px;
    border-radius: 150px 150px 150px 150px;
    top: 55%;
-   color: gray;
-   border: 3px solid rgb(0, 0, 0, 0.66);
+   color: #472191;
+   border: 0px solid rgb(0, 0, 0, 0.66);
    margin-left: -12%;
+   font-size: 19px;
+   text-align: center;
+   line-height: 70px;
+
+
+}
+
+.minilink5:hover {
+   width: 80px;
+   height: 80px;
+   border-radius: 150px 150px 150px 150px;
+   top: 55%;
+   border: 0px solid rgb(0, 0, 0, 1);
+   margin-left: -12%;
+   font-size: 15px;
+}
+
+.discord {
+   width: 80px;
+   height: 80px;
+   border-radius: 0px;
+   top: 50%;
+   color: gray;
+   border: 0px solid rgb(0, 0, 0, 0.66);
+   margin-left: 0%;
    font-size: 19px;
    text-align: center;
    line-height: 70px;
@@ -188,16 +197,18 @@ p, a {
      background-size: 50% auto;
      color: transparent;
 
+
 }
 
-.minilink5:hover {
+.discord:hover {
    width: 80px;
    height: 80px;
    border-radius: 150px 150px 150px 150px;
-   top: 55%;
-   border: 3px solid rgb(0, 0, 0, 1);
-   margin-left: -12%;
-   font-size: 15px;
+   top: 50%;
+   border: 0px solid rgb(0, 0, 0, 1);
+   margin-left: 0%;
+   font-size: 20px;
+
 }
 
 
