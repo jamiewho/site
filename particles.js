@@ -37,15 +37,6 @@ class particle {
 		c.beginPath();
 
 		switch(this.variation) {
-			case 0: // Circle
-				c.arc(this.x, this.y, this.size, 0, 2 * Math.PI, false);
-				break;
-			case 1: // Plus
-				c.moveTo(this.x - this.size, this.y);
-				c.lineTo(this.x + this.size, this.y);
-				c.moveTo(this.x, this.y - this.size);
-				c.lineTo(this.x, this.y + this.size);
-				break;
 			case 2: // Heart
 				c.arc(this.x - this.size / 2, this.y, this.size / 2, 1 * Math.PI, 2 * Math.PI, false);
 				c.arc(this.x + this.size / 2, this.y, this.size / 2, 1 * Math.PI, 2 * Math.PI, false);

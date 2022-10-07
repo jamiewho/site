@@ -12,7 +12,7 @@ html, body {
 
 body {
 	font-family: comfortaa-light;
-	background-color: #000;
+	background-color: black;
 	color: #fff;
 }
 
@@ -66,4 +66,18 @@ h1 {
 	to {
 		background-position: 200%;
 	}
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.content img {
+	border-radius: 50%;
 }
